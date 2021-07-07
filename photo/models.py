@@ -1,3 +1,5 @@
 from django.db import models
 
-# Create your models here.
+
+class picture(models.Model):
+    img = models.ImageField(blank=True, upload_to="media")
